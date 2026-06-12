@@ -2,7 +2,7 @@
     "$schema": "node_modules/wrangler/config-schema.json",
     "main": "@tanstack/react-start/server-entry",
     // wrangler.jsonc
-    "name": "online-ashtonkmania",
+    "name": "fork-ashtonkmania",
     "compatibility_date": "2025-05-18",
     "compatibility_flags": [
         "nodejs_compat"
