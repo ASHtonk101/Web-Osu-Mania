@@ -1,25 +1,28 @@
 {
     "$schema": "node_modules/wrangler/config-schema.json",
     "main": "@tanstack/react-start/server-entry",
-    "name": "webosumania",
+    // wrangler.jsonc
+    "name": "fork-ashtonkmania",
     "compatibility_date": "2025-05-18",
     "compatibility_flags": [
         "nodejs_compat"
     ],
-    "kv_namespaces": [
-        {
-            "binding": "OSU_API",
-            "id": "4c393a66c157468282b7e336b1627cd6"
-        },
-        {
-            "binding": "BEATMAP_SETS",
-            "id": "e24512f619c648009717ac1c53a9f685"
-        },
-        {
-            "binding": "BEATMAP_SET_DATA",
-            "id": "db5d38d39f9b497f994b4783b226b338"
-        }
-    ],
+   "kv_namespaces": [
+    {
+      "binding": "OSU_API",
+      "id": "9f98a94afa9c42acbd6fd46e904c9667"
+    },
+    {
+      "binding": "BEATMAP_SETS",
+      "id": "1f30c1355ce24923b9e6566f6230c5a0"
+    },
+    {
+      "binding": "BEATMAP_SET_DATA",
+      "id": "75d7b351f23a4291a2a730cdfb5162f9"
+    }
+  ],
+
+
     "migrations": [
         {
             "tag": "v1",
